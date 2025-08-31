@@ -10,13 +10,13 @@ ip a
 cat readme.txt
 
 # 4. Count the number of lines in "data.csv"
-wc -l < data1.csv
+wc -l < data.csv
 
 # 5. Find all files containing the word "error" in the "logs" folder
 grep -r "error" logs/
 
 # 6. Display the last 10 lines of "app.log"
-tail -n 10 app1.log
+tail -n 10 app.log
 
 # 7. Change permissions of "script.sh" to make it executable for everyone
 chmod a+x script.sh
@@ -35,4 +35,5 @@ find / -type d -name "backup"
 
 # 12. Replace every occurrence of "foo" with "bar" in "example.txt" and save to "new_example.txt"
 sed 's/foo/bar/g' example.txt > new_example.txt
+
 
